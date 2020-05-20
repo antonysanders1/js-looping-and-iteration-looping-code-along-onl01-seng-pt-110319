@@ -7,7 +7,7 @@ function writeCards(names, b) {
     console.log(`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
   }
  
-  return gifts;
+  return names;
 }
  
-wrapGifts(gifts);
+writeCards(names, b);
