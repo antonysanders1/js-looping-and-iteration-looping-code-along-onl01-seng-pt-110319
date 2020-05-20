@@ -4,7 +4,7 @@ const b = "suprise"
  
 function writeCards(names, b) {
   for (let i = 0; i < names.length; i++) {
-    return console.log(`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
+    return (`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
   }
 
 }
