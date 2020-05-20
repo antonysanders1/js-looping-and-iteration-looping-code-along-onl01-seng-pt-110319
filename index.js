@@ -6,3 +6,4 @@ function writeCards(names, sup) {
     }
     return thankYouCards
 }
+
