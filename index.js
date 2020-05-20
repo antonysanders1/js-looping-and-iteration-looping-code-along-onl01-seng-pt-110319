@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const gifts = ["teddy bear", "drone", "doll"];
+const names = ["teddy bear", "drone", "doll"];
  
 function writeCards(gifts) {
   for (let i = 0; i < gifts.length; i++) {
