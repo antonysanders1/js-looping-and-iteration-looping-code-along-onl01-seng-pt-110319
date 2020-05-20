@@ -7,7 +7,10 @@ function writeCards(names, sup) {
     return thankYouCards
 }
 
+function countDown() {
 let countdown = 10;
-while (countup < 10) {
-  console.log(countup++);
+while (countup >= 0) {
+  console.log(countdown--);
+}
+
 }
