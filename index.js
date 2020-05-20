@@ -3,9 +3,11 @@ const names = [ 'Lisa', 'Kaitlin', 'Jan' ];
 const b = "suprise"
  
 function writeCards(names, b) {
-  return for (let i = 0; i < names.length; i++) {
-    console.log(`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
+  for (let i = 0; i < names.length; i++) {
+    return console.log(`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
   }
+ 
+  return 
 }
  
 writeCards(names, b);
