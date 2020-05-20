@@ -4,9 +4,10 @@ const b = "suprise"
  
 function writeCards(names, b) {
   for (let i = 0; i < names.length; i++) {
-    return `Thank you, ${names[i]}, for the wonderful ${b} gift!`;
+    console.log(`Thank you, ${names[i]}, for the wonderful ${b} gift!`);
   }
-
+ 
+  return 
 }
  
 writeCards(names, b);
